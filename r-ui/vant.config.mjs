@@ -32,6 +32,10 @@ export default {
             path: 'demo-button',
             title: 'DemoButton 按钮',
           },
+          {
+            path: 'demo-input',
+            title: 'DemoInput 输入框',
+          },
         ],
       },
     ],

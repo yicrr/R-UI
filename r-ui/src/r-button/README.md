@@ -27,7 +27,7 @@ Vue.use(DemoButton);
 
 | 参数          | 说明     | 类型     | 默认值    |
 | ------------- | -------- | -------- | --------- |
-| type          | 按钮类型`(success,primary)` | _string_ | `primary` |
+| type          | 按钮类型 | _string_ | `primary` |
 | color `1.0.0` | 按钮颜色 | _string_ | -         |
 
 ### Events

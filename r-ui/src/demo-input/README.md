@@ -2,15 +2,15 @@
 
 ### 介绍
 
-DemoButton 是一个按钮组件
+Demoinput 是一个示例按钮组件
 
 ### 引入
 
 ```js
 import Vue from 'vue';
-import { DemoButton } from 'r-ui';
+import { DemoInput } from 'r-ui';
 
-Vue.use(DemoButton);
+Vue.use(DemoInput);
 ```
 
 ## 代码演示
@@ -18,7 +18,7 @@ Vue.use(DemoButton);
 ### 基础用法
 
 ```html
-<demo-button type="primary" />
+<demo-input type="primary" />
 ```
 
 ## API
@@ -27,7 +27,7 @@ Vue.use(DemoButton);
 
 | 参数          | 说明     | 类型     | 默认值    |
 | ------------- | -------- | -------- | --------- |
-| type          | 按钮类型`(success,primary)` | _string_ | `primary` |
+| type          | 按钮类型 | _string_ | `primary` |
 | color `1.0.0` | 按钮颜色 | _string_ | -         |
 
 ### Events

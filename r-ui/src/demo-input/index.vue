@@ -1,12 +1,10 @@
 <template>
-  <button class="demo-button" :class="type">
-    <slot />
-  </button>
+  <input class="demo-button">
 </template>
 
 <script>
 export default {
-  name: 'DemoButton',
+  name: 'DemoInput',
 
   props: {
     color: String,
@@ -24,20 +22,8 @@ export default {
   color: #fff;
   font-size: 16px;
   line-height: 36px;
+  background-color: #f44;
   border: none;
   border-radius: 30px;
-}
-.demo-button:hover {
-  opacity:0.8;
-  cursor: pointer;
-}
-.primary {
-  background-color: #f44;
-}
-.success {
-  background-color: rgb(126, 198, 143);
-}
-.error {
-  background-color: rgb(196, 110, 97);
 }
 </style>
